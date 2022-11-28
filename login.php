@@ -4,6 +4,7 @@ session_start();
 
 	include("connection.php");
 	include("functions.php");
+	//require_once("../Book Store/CRUD/index.php");
 
 
 	if($_SERVER['REQUEST_METHOD'] == "POST")
@@ -30,7 +31,7 @@ session_start();
 					{
 
 						$_SESSION['user_id'] = $user_data['user_id'];
-						header("Location: index.php");
+						header("Location: ../Book Store/CRUD/index.php");
 						die;
 					}
 				}
