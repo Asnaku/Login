@@ -14,7 +14,7 @@ $user_data = check_login($con);
 <html>
 
 <head>
-	<style>
+	<!-- <style>
 		h1 {
 			text-align: center;
 		}
@@ -26,12 +26,12 @@ $user_data = check_login($con);
 		div {
 			text-align: center;
 		}
-	</style>
+	</style> -->
 	<title>My website</title>
 </head>
 
 <body>
-	<h1>Hello, <?php echo $user_data['user_name']; ?></h1>
+	<!-- <h1>Hello, <?php echo $user_data['user_name']; ?></h1>
 
 	<p>
 		<em>
@@ -43,7 +43,7 @@ $user_data = check_login($con);
 		<em>
 			<a href="logout.php">Logout</a>
 		</em>
-	</p>
+	</p> -->
 </body>
 
 </html>
